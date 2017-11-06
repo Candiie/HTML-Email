@@ -72,29 +72,40 @@ The following example is done via Chrome and Gmail, similar results can be repro
 > 1. Copy [ctrl + a & ctrl + c] the completed HTML code .
 
 > 2. Proceed to your email client & open up your "New Message" window.
-![alt text](img/embed/s2.png)
+![s2](img/embed/s2.png)
 
 > 3. In the content field, `type a random string` of character.
+![s3](img/embed/s3.png)
 
 > 4. `Double click on the string` to select it.
+![s4](img/embed/s4.png)
 
 > 5. `Right click` & `select inspect` from the dropdown list.
 
 > 6. On the opened debugging console (see below),
+![s6](img/embed/s6.png)
 
 > 7. click on the ">" highlighted line of code to dropdown.
+![s7](img/embed/s7.png)
 
 > 8. Select the portion of the code where your string lies - in this case i'm selecting the line that consist the word *"Random"*
+![s8](img/embed/s8.png)
 
 > 9. Right click on the highlighted line/text and select `Edit as HTML`.
+![s9](img/embed/s9.png)
 
 > 10. Remove the temporary string of character.
+![s10_1](img/embed/s10_1.png)
+![s10_2](img/embed/s10_2.png)
 
 > 11. Paste [ctrl + v] the entire copied HTML code into the same field.
+![s11](img/embed/s11.png)
 
 > 12. Click another unselected line in the console to close the editor.
+![s12](img/embed/s12.png)
 
 > 13. Wahlah! the customised EDM should now appear on your "New Message" Window.
+![s13](img/embed/s13.png)
 
 *Notes from author* - This marks the end of the guide! Hope you've found it useful! Feel free to suggest changes and edits.
 
