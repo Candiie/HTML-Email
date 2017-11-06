@@ -6,7 +6,7 @@ Hi there! Welcome to the readme guide to editing & customising an Electronic Dig
 
 ### Software to edit and customise the HTML file
 
-> First & foremost, `Download & Install` either [Atom](https://atom.io/) or [Sublime Text](https://www.sublimetext.com/) editor before proceeding. These are editors with syntax highlighting abilities to make your code editing life easier.
+> First & foremost, `Download & Install` either [Atom](https://atom.io/) or [Sublime Text](https://www.sublimetext.com/) editor before proceeding. These are editors powered with syntax highlighting abilities to make your code editing life easier.
 
 
 
@@ -28,10 +28,11 @@ into a email client for sending
 ```
 
 - - -
+- - -
 
 ### Important Do (s) & Don't (s)
 
-Before proceeding to editing the code. There are some portions of code that can be freely customised and some that **should never be remove or edited**, below are some instructions to note.
+Before proceeding to edit the code. There are some portions of code that can be freely customised and some that **should never be remove or edited**, below are some instructions to note.
 
 > Codes labeled within `START - DO NOT EDIT CONTENT - START` & `END - DO NOT EDIT CONTENT - END` - **should never be edited**.
 
@@ -39,13 +40,71 @@ Before proceeding to editing the code. There are some portions of code that can 
 
 > Tags that looks like `#XXXXXX` are hexa color codes and ***can be edited freely within the entire code to your liking*** - e.g. by changing a code from `#FFFFFF` to `#DE6C9E` will result in the affected element to become light pink.
 
+> When editing writings in codes in between tags, note to only edit the text in white. <br/>
+![edittext](img/doanddonts/doanddonts.png)
+
+
 - - -
 
 ### Steps to edit the HTML file template (Basic Content Editing)
 
+Before we begin editing, double click the "edm.html" it should open up in chrome (preferred) or other web browser and look something like the image below. <br/>
+![fullshot](img/contentedit/fullshotbefore.png)
+
 Assuming that the only contents you'll be seeking to add & edit are the images, names & profile description and links. Below are sub topics and instructions to edit those elements mentioned above.
 
-It is advisable for entry level coders to not edit too much of the code. However feel free to trail & error, after all you'll learn more from experimenting then only editing unrestricted contents.
+It is advisable for entry level coders to not edit too much of the code. However feel free to trail & error, after all you'll learn more from experimenting then only editing restricted contents.
+
+#### Adding / Replacing the Content Title
+The `main content title` of the entire edm can be edited to your desire.
+![sechead1](img/contentedit/edmtitlebefore.png)
+
+> 1. Look for the code snippet below.
+```
+<!-- **************************************** -->
+<!-- ******* MAIN EDM TITLE - EDIT ME ******* -->
+<!-- **************************************** -->
+```
+
+> 2. The code snippet should look similar to the image below.
+![sechead2](img/contentedit/edmtitle.png)
+
+> 3. Feel free to `edit` the text in white - `ONLY the text in white` if you are a new to HTML.
+
+#### Adding / Editing a section heading
+
+To add a section heading above a section of introductions - like the bottom image.
+![sechead1](img/contentedit/sectionheading.png)
+
+> 1. Look for the code snippet below.
+```
+<!-- **************************************** -->
+<!-- INTRO SEGMENT START - ADD TITLE ABOVE ME -->
+<!-- **************************************** -->
+```
+
+
+> 1. Look for the code snippet below.
+```
+<!-- **************************************** -->
+<!-- INTRO SEGMENT START - ADD TITLE ABOVE ME -->
+<!-- **************************************** -->
+```
+
+```
+<tr>
+  <h1 style="margin: 10px 0 10px 0; font-family: sans-serif; font-size: 20px; line-height: 24px; color: #333333; font-weight: bold; text-align: middle;" >
+
+  Singapore Design Team
+
+  </h1>
+  <hr style="width:100%; max-width:617.5px; opacity: 0.2"/>
+
+ </tr>
+ ```
+
+> 3. .
+
 
 #### Adding / Replacing the Profile Image
 > 1. .
@@ -68,6 +127,7 @@ It is advisable for entry level coders to not edit too much of the code. However
 
 > 3. .
 
+- - -
 - - -
 
 ### Steps to embed the completed HTML code into an email
@@ -109,7 +169,7 @@ The following example is done via Chrome and Gmail, similar results can be repro
 > 12. Click another unselected line in the console to close the editor.
 ![s12](img/embed/s12.png)
 
-> 13. Wahlah! the customised EDM should now appear on your "New Message" Window.
+> 13. Wahlah! the customised EDM should now appear on your "New Message" Window. Trying sending it to yourself or another email you can access to view the results.
 ![s13](img/embed/s13.png)
 
 *Notes from author* - This marks the end of the guide! Hope you've found it useful! Feel free to suggest changes and edits.
