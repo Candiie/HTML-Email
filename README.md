@@ -65,7 +65,7 @@ It is advisable for entry level coders to not edit too much of the code. However
 > 3. .
 
 
-### Steps to embed the completed code into an email
+### Steps to embed the completed HTML code into an email
 
 The following example is done via Chrome and Gmail, similar results can be reproduce in other web browsers.
 
@@ -81,6 +81,7 @@ The following example is done via Chrome and Gmail, similar results can be repro
 ![s4](img/embed/s4.png)
 
 > 5. `Right click` & `select inspect` from the dropdown list.
+![s5](img/embed/s5.png)
 
 > 6. On the opened debugging console (see below),
 ![s6](img/embed/s6.png)
@@ -95,7 +96,6 @@ The following example is done via Chrome and Gmail, similar results can be repro
 ![s9](img/embed/s9.png)
 
 > 10. Remove the temporary string of character.
-![s10_1](img/embed/s10_1.png)
 ![s10_2](img/embed/s10_2.png)
 
 > 11. Paste [ctrl + v] the entire copied HTML code into the same field.
