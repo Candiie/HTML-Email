@@ -45,17 +45,22 @@ Before proceeding to edit the code. There are some portions of code that can be 
 
 
 - - -
+- - -
+
 
 ### Steps to edit the HTML file template (Basic Content Editing)
 
-Before we begin editing, double click the "edm.html" it should open up in chrome (preferred) or other web browser and look something like the image below. <br/>
-![fullshot](img/contentedit/fullshotbefore.png)
+Before we begin editing, double click the "edm.html" file it should open up in chrome (preferred) or other web browser and look something like the image below. <br/>
+<!-- ![fullshot](img/contentedit/fullshotbefore.png) -->
+<img src="img/contentedit/fullshotbefore.png" max-width="300px"/>
 
 Assuming that the only contents you'll be seeking to add & edit are the images, names & profile description and links. Below are sub topics and instructions to edit those elements mentioned above.
 
-It is advisable for entry level coders to not edit too much of the code. However feel free to trail & error, after all you'll learn more from experimenting then only editing restricted contents.
+**It is advisable for entry level coders to not edit too much of the code. However feel free to trail & error, after all you'll learn more from experimenting then only editing restricted contents.**
 
-#### Adding / Replacing the Content Title
+- - -
+
+#### 1. Adding / Replacing the Content Title
 The `main content title` of the entire edm can be edited to your desire.
 ![sechead1](img/contentedit/edmtitlebefore.png)
 
@@ -71,7 +76,9 @@ The `main content title` of the entire edm can be edited to your desire.
 
 > 3. Feel free to `edit` the text in white - `ONLY the text in white` if you are a new to HTML.
 
-#### Adding / Editing a section heading
+- - -
+
+#### 2. Adding / Editing a section heading
 
 To add a section heading above a section of introductions - like the bottom image.
 ![sechead1](img/contentedit/sectionheading.png)
@@ -103,6 +110,8 @@ To add a section heading above a section of introductions - like the bottom imag
  </tr>
  ```
 
+ - - -
+
 > 3. .
 
 
@@ -113,12 +122,20 @@ To add a section heading above a section of introductions - like the bottom imag
 
 > 3. .
 
+
+- - -
+
+
 #### Editing the Name & written profile description
 > 1. .
 
 > 2. .
 
 > 3. .
+
+
+- - -
+
 
 #### Adding / Editing a link
 > 1. .
