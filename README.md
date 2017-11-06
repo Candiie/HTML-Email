@@ -2,6 +2,7 @@
 
 Hi there! Welcome to the readme guide to editing & customising an Electronic Digital Mail (EDM).
 
+- - -
 
 ### Software to edit and customise the HTML file
 
@@ -26,6 +27,8 @@ Scroll to the bottom for instructions on how to embed the written HTML code
 into a email client for sending
 ```
 
+- - -
+
 ### Important Do (s) & Don't (s)
 
 Before proceeding to editing the code. There are some portions of code that can be freely customised and some that **should never be remove or edited**, below are some instructions to note.
@@ -36,6 +39,7 @@ Before proceeding to editing the code. There are some portions of code that can 
 
 > Tags that looks like `#XXXXXX` are hexa color codes and ***can be edited freely within the entire code to your liking*** - e.g. by changing a code from `#FFFFFF` to `#DE6C9E` will result in the affected element to become light pink.
 
+- - -
 
 ### Steps to edit the HTML file template (Basic Content Editing)
 
@@ -64,6 +68,7 @@ It is advisable for entry level coders to not edit too much of the code. However
 
 > 3. .
 
+- - -
 
 ### Steps to embed the completed HTML code into an email
 
@@ -95,7 +100,7 @@ The following example is done via Chrome and Gmail, similar results can be repro
 > 9. Right click on the highlighted line/text and select `Edit as HTML`.
 ![s9](img/embed/s9.png)
 
-> 10. Remove the temporary string of character.
+> 10. Remove the temporary string of character. <br/>
 ![s10_2](img/embed/s10_2.png)
 
 > 11. Paste [ctrl + v] the entire copied HTML code into the same field.
